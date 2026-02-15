@@ -1,0 +1,81 @@
+[]hacer validar que tienes instalado XAMPP (o servidor local), Composer, Git y cuenta en GitHub.
+[]hacer abrir terminal en la carpeta del proyecto: /home/santiago/Desktop/Backend/mi-perfil.
+[]hacer verificar versión de PHP con: php -v.
+[]hacer verificar Composer con: composer -V.
+[]hacer verificar Git con: git --version.
+
+[]hacer (si no instalaste Laravel global) instalar Laravel installer con: composer global require laravel/installer.
+[]hacer (si el proyecto no existiera) crear proyecto con: laravel new mi-perfil.
+[]hacer entrar al proyecto con: cd mi-perfil.
+[]hacer iniciar servidor de desarrollo con: php artisan serve.
+[]hacer confirmar que abre en navegador: http://localhost:8000.
+
+[]hacer inicializar Git (si aún no está inicializado) con: git init.
+[]hacer crear primer commit de base con: git add .
+[]hacer crear primer commit de base con: git commit -m "Proyecto Laravel recién instalado".
+
+[]hacer abrir el archivo routes/web.php.
+[]hacer agregar la ruta raíz: Route::get('/', function () { return view('welcome'); });
+[]hacer agregar la ruta perfil: Route::get('/perfil', function () { return view('perfil'); });
+[]hacer agregar la ruta intereses: Route::get('/perfil/intereses', function () { return view('intereses'); });
+[]hacer agregar la ruta habilidades: Route::get('/perfil/habilidades', function () { return view('habilidades'); });
+[]hacer agregar la ruta metas: Route::get('/perfil/metas', function () { return view('metas'); });
+[]hacer guardar routes/web.php y probar cada URL en el navegador.
+[]hacer crear commit de rutas con: git add . && git commit -m "Rutas creadas".
+
+[]hacer crear la vista resources/views/perfil.blade.php.
+[]hacer agregar en perfil.blade.php información personal, pasatiempos y gustos.
+[]hacer crear commit exclusivo de perfil.blade.php con: git add . && git commit -m "Vista perfil.blade.php creada".
+
+[]hacer crear la vista resources/views/intereses.blade.php.
+[]hacer agregar en intereses.blade.php tus intereses (académicos, tecnológicos o personales).
+[]hacer crear commit exclusivo de intereses.blade.php con: git add . && git commit -m "Vista intereses.blade.php creada".
+
+[]hacer crear la vista resources/views/habilidades.blade.php.
+[]hacer agregar en habilidades.blade.php skills técnicas (lenguajes, herramientas, frameworks).
+[]hacer crear commit exclusivo de habilidades.blade.php con: git add . && git commit -m "Vista habilidades.blade.php creada".
+
+[]hacer crear la vista resources/views/metas.blade.php.
+[]hacer agregar en metas.blade.php objetivos profesionales y metas de corto/mediano plazo.
+[]hacer crear commit exclusivo de metas.blade.php con: git add . && git commit -m "Vista metas.blade.php creada".
+
+[]hacer crear archivo CSS propio en public/css/estilos.css.
+[]hacer diseñar menú de navegación funcional entre perfil, intereses, habilidades y metas.
+[]hacer definir paleta de colores personalizada (sin Bootstrap).
+[]hacer aplicar tipografía legible, márgenes y espaciados consistentes.
+[]hacer (recomendado) agregar reglas responsive para móvil/tablet.
+[]hacer enlazar CSS en cada vista Blade con: <link rel="stylesheet" href="{{ asset('css/estilos.css') }}">.
+[]hacer crear commit de estilos con: git add . && git commit -m "Hoja de estilos CSS implementada".
+
+[]hacer ajustar diseño visual final (alineación, contraste, legibilidad, navegación).
+[]hacer crear commit de mejoras visuales con: git add . && git commit -m "Mejoras de diseño y ajustes visuales".
+
+[]hacer crear/actualizar README.md con: nombre del proyecto, descripción breve, requisitos, instalación, ejecución, autor y fecha.
+[]hacer agregar instrucciones claras para clonar y ejecutar el proyecto Laravel.
+[]hacer crear commit final de documentación con: git add README.md && git commit -m "README.md final con documentación".
+
+[]hacer revisar que el historial tenga proceso completo (no un solo commit final).
+[]hacer validar que se aproxima a esta línea de tiempo mínima:
+[]hacer commit 1: instalación inicial del proyecto Laravel.
+[]hacer commit 2: configuración del entorno y archivos base.
+[]hacer commit 3: creación de rutas en web.php.
+[]hacer commit 4: vista perfil.blade.php creada.
+[]hacer commit 5: vista intereses.blade.php creada.
+[]hacer commit 6: vista habilidades.blade.php creada.
+[]hacer commit 7: vista metas.blade.php creada.
+[]hacer commit 8: hoja de estilos CSS implementada.
+[]hacer commit 9: mejoras de diseño y ajustes visuales.
+[]hacer commit 10: README.md final con documentación.
+
+[]hacer crear repositorio público en GitHub (sin README automático).
+[]hacer conectar repositorio local con remoto: git remote add origin https://github.com/TU_USUARIO/mi-perfil-laravel.git.
+[]hacer asegurar rama principal: git branch -M main.
+[]hacer publicar repositorio: git push -u origin main.
+[]hacer validar que el repositorio público abre correctamente en GitHub.
+
+[]hacer copiar link del repositorio (ejemplo: https://github.com/usuario/mi-perfil-laravel).
+[]hacer copiar link de tu perfil GitHub (ejemplo: https://github.com/usuario).
+[]hacer tomar captura del historial de commits en la pestaña Commits de GitHub.
+[]hacer adjuntar README.md completo solicitado.
+[]hacer subir en TEMA (UNAB) TODOS los enlaces y archivos requeridos.
+[]hacer verificar antes de enviar que no falte ningún elemento de entrega.
